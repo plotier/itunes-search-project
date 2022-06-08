@@ -3,6 +3,8 @@
 Albums database using the Itunes `API`.
 Built with `React Hooks`.
 
+![Alt text](itunes-search-project/src/img/demo-search.png "Search music")
+
 ## Project Details
 - Information taken from the Itunes API.
 - A search bar to find music in iTunes.
