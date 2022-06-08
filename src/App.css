@@ -1,0 +1,106 @@
+.App {
+  min-height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  background-color: 	#232b2b;
+  color:white;
+}
+
+.gripButton{
+  border-radius: 20%;
+  height: 40px;
+  width: 40px;
+  background-image: url("./img/grip-solid.svg");
+  background-repeat: no-repeat;
+  background-position: center ;
+  border: transparent;
+}
+.verticalButton{
+  border-radius: 20%;
+  height: 40px;
+  width: 40px;
+  background-image: url("./img/ellipsis-vertical-solid.svg");
+  background-repeat: no-repeat;
+  background-position: center ;
+  border: transparent;
+}
+.form-control{
+ max-width:250px;
+}
+.searchButton{
+  max-width:150px
+}
+
+.albumCards{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+  align-items: baseline;
+}
+.changeDisplay{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.paginationBttns {
+  margin-top: 3rem;
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: black;
+}
+.paginationActive {
+  color: black;
+  background-color: white;
+}
+.paginationActive :hover {
+  color: black;
+  background-color: white;
+}
+.paginationActive a {
+  color: black;
+  background-color: white;
+}
+
+.paginationDisabled a {
+  color: #232b2b;
+}
+.paginationDisabled a:hover {
+  color: #232b2b;
+  cursor: default;
+  background-color: #232b2b;
+
+}
+.previousBttn{
+  color: white;
+}
+.nextBttn{
+  color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .onlypage {
+    display: none;
+  }
+  .input-group{
+    display: block;
+  }
+}

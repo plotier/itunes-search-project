@@ -1,0 +1,14 @@
+.backgroundNavbar{
+    background: #232b2b;
+    height: fit-content;
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size:small;
+    
+}
+.backgroundNavbar img{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
