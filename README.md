@@ -20,7 +20,3 @@ npm install
 # Runs the app in the development mode
 npm run start
 ```
-
-## Cap
-
-![Alt text](/src/img/demo-search.png "Search music")
