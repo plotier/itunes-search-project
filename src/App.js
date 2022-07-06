@@ -20,11 +20,10 @@ function App() {
     setPageNumber(0);
   }, [searchSubmit]);
 
+  //Pagination
   const albumsPerPage = 20;
   const pagesVisited = pageNumber * albumsPerPage;
-
   const pageCount = Math.ceil(musicResults.length / albumsPerPage);
-
   const changePage = ({ selected }) => {
     setPageNumber(selected);
   };
